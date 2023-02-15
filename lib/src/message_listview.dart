@@ -15,7 +15,9 @@ class MessageListView extends StatefulWidget {
   final Widget Function(ChatUser)? avatarBuilder;
   final Widget Function(ChatMessage)? messageBuilder;
   final Widget Function(String?, [ChatMessage])? messageTextBuilder;
-  final Widget Function(String?, [ChatMessage])? messageImageBuilder;
+//   final Widget Function(String?, [ChatMessage])? messageImageBuilder;
+    final Widget Function(String)? messageImageBuilder;
+
   final Widget Function(String, [ChatMessage])? messageTimeBuilder;
   final Widget Function(String)? dateBuilder;
   final Widget Function()? renderMessageFooter;
